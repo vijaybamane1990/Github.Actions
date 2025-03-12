@@ -1,0 +1,12 @@
+name: Hello World
+on:
+  push:
+    branch:
+      - main
+  jobs: 
+    demo: 
+      runs-on: ubuntu
+      
+    steps:
+         - name: Greetings
+           run: echo "Hello, world!"
