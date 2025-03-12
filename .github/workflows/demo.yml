@@ -4,7 +4,7 @@ on:
      branches: [ main ]
 jobs: 
     demo: 
-      runs-on: devops
+      runs-on: self-hosted
       steps:
          - name: Greetings
            run: echo "Hello, world!"
