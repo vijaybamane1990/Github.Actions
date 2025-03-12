@@ -4,7 +4,7 @@ on:
      inputs:
       name: 
         description: 'Name'
-        type: sring
+        type: string
         default: 'test' 
 
 jobs: 
