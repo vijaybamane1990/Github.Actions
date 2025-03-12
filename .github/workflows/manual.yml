@@ -1,0 +1,9 @@
+name: Manual workflow
+on:
+  workflow_dispatch:
+jobs: 
+    demo: 
+      runs-on: self-hosted
+      steps:
+         - name: Greetings
+           run: echo "Hello, world!"
