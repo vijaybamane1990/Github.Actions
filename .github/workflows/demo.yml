@@ -4,7 +4,7 @@ on:
      branches: [ main ]
 jobs: 
     demo: 
-      runs-on: ubuntu
+      runs-on: devops
       steps:
          - name: Greetings
            run: echo "Hello, world!"
