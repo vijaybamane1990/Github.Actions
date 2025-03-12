@@ -12,4 +12,4 @@ jobs:
       runs-on: self-hosted
       steps:
          - name: Greetings
-           run: echo "{{ input.name }}"
+           run: apt install npm
