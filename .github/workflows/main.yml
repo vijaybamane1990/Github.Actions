@@ -6,7 +6,7 @@ on:
 
 jobs:
   demo:
-  runs-on: ubuntu-latest
+  runs-on: ubuntu
 
   steps:
     - name: Greetings
