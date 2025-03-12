@@ -1,8 +1,14 @@
 name: Manual workflow
 on:
   workflow_dispatch:
+     inputs:
+      name: 
+        description: 'Name'
+        type: sring
+        default: 'test' 
+
 jobs: 
-    demo: 
+    manual: 
       runs-on: self-hosted
       steps:
          - name: Greetings
